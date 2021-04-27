@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Trailer Listing</title>
+
+		<!-- external CSS link -->
+	
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+
+		
+		<form id="title">
+			<label for="year">Year</label>
+				<select id="year" name="year"></select>
+            <label for="make">Make</label>
+                <select id="make" name="make">
+                    <option value="Dorsey">Dorsey</option>
+                    <option value="Great Dane">Great Dane</option>
+                    <option value="Monon">Monon</option>
+                    <option value="Lufkin">Lufkin</option>
+                    <option value="Stoughton">Stoughton</option>
+                </select>
+			<label for="length" placeholder="length">Length</label>
+				<select id="length">
+					<option value="53'">53'</option>
+					<option value="48">48'</option>
+				</select>
+			<label for="width" placeholder="width">Width</label>	
+				<select id="width">
+					<option value="96">96"</option>
+					<option value="102">102"</option>
+				</select>
+		</form>
+		<form id="bullet-points">
+			<label for="door" placeholder="door">Door</label>
+				<select id="door">
+					<option value="Roll door">Roll door</option>
+					<option value="Swing">Swing doors</option>
+				</select>
+			<label for="roof" placeholder="roof">Roof</label>
+				<select id="roof">
+					<option value="Translucent roof">Translucent roof</option>
+					<option value="Metal roof">Metal roof</option>
+				</select>
+			<label for="suspension" placeholder="suspension">Suspension</label>
+				<select id="suspension">
+					<option value="Air ride">Air ride</option>
+					<option value="Spring ride">Spring ride</option>
+				</select>
+			<label for="notes" placeholder="notes">Notes/Damage (Please enter one item per line)</label>
+				<input type="text" name="notes" class="notes">
+				<input type="text" name="notes" class="notes">
+                <input type="text" name="notes" class="notes">
+                <input type="text" name="notes" class="notes">
+
+				<button type="button" name="button" id="submit">Submit</button>
+		</form>
+		<h3 id="header"></h3>
+		<p></p>
+
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
